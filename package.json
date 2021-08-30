@@ -1,12 +1,16 @@
 {
-  "name": "pouchdb-sql",
+  "name": "@ldavidsp/pouchdb-sql",
   "version": "1.0.0",
   "description": "This tool converts SQL strings into Mango objects, to allow users to interact with CouchDB/Cloudant database with SQL queries.",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ldavidsp/pouchdb-sql.git"
+    "url": "git+https://github.com/ldavidsp/pouchdb-sql.git"
   },
+  "bugs": {
+    "url": "https://github.com/ldavidsp/pouchdb-sql/issues"
+  },
+  "homepage": "https://github.com/ldavidsp/pouchdb-sql#readme",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
