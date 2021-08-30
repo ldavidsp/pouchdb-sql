@@ -2,12 +2,12 @@
 
 The *pouchdb-sql* project is a [PouchDB](https://pouchdb.com) plugin that allows SQL queries to be performed against PouchDB databases. This mirrors the functionality found in the [pouchdb-sql](https://www.npmjs.com/package/pouchdb-sql) library.
 
-It requires the [pouchdb-find](https://www.npmjs.com/package/pouchdb-find) plugin.
+It requires the [pouchdb-find](https://www.npmjs.com/package/@ldavidsp/pouchdb-sql) plugin.
 
 ## Installation
 
 ```
-npm install pouchdb-sql
+npm install @ldavidsp/pouchdb-sql
 ```
 
 And then attach it to the `PouchDB` object:
@@ -15,7 +15,7 @@ And then attach it to the `PouchDB` object:
 ```js
 var PouchDB = require('pouchdb');
 PouchDB.plugin(require('pouchdb-find'));
-PouchDB.plugin(require('pouchdb-sql'));
+PouchDB.plugin(require('@ldavidsp/pouchdb-sql'));
 ```
 
 ## Usage
