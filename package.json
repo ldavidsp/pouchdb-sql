@@ -1,6 +1,6 @@
 {
   "name": "@ldavidsp/pouchdb-sql",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "This tool converts SQL strings into Mango objects, to allow users to interact with CouchDB/Cloudant database with SQL queries.",
   "main": "index.js",
   "repository": {
@@ -23,7 +23,7 @@
     "couchdb"
   ],
   "author": "Luis Solorzano <luisnic20@gmail.com>",
-  "license": "Apache-2.0",
+  "license": "ISC",
   "dependencies": {
     "pouchdb": "^7.2.2",
     "pouchdb-find": "^7.2.2",
