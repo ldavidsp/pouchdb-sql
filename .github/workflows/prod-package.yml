@@ -1,8 +1,6 @@
 name: PouchDB SQL Query
 
 on:
-  push:
-    branches: [main]
   release:
     types: [created]
 
@@ -16,7 +14,7 @@ jobs:
           node-version: 12
       - run: npm ci
 
-  publish-gpr:
+  publish-pouchdb-sql:
     needs: build
     runs-on: ubuntu-latest
     permissions:
